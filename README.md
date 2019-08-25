@@ -15,7 +15,7 @@
 >> Jsoup, JUnit4
 
 > **notes**
->> *.class.getResource("").getPath(); //  */crawler/target/classes/com/nomad/util/
->> *.class.getResource("/").getPath(); // */crawler/target/test-classes/
->> *.class.getClassLoader().getResource("").getPath(); //  */crawler/target/test-classes/
->> *.class.getClassLoader().getResource("/").getPath(); // error
+>> *.class.getResource("").getPath(); //  */crawler/target/classes/com/nomad/util/  
+>> *.class.getResource("/").getPath(); // */crawler/target/test-classes/     
+>> *.class.getClassLoader().getResource("").getPath(); //  */crawler/target/test-classes/  
+>> *.class.getClassLoader().getResource("/").getPath(); // error  
